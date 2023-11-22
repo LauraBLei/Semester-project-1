@@ -1,0 +1,8 @@
+.footer-container{
+background-color: var(--Blue);
+display: flex;
+justify-content: center;
+gap: 206px;
+padding-top: 20px;
+padding-bottom: 20px;
+}

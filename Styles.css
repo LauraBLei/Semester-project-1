@@ -1,0 +1,87 @@
+@import url(/CSS/Default.css);
+@import url(/CSS/Header.css);
+@import url(/CSS/Footer.css);
+@import url(/CSS/Buttons.css);
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1730px;
+    
+}
+
+.big-button-container{
+    padding-top: 43px;
+    padding-bottom: 89px;
+    gap: 93px;
+}
+
+.explore-together-container {
+    flex-direction: column;
+}
+
+.event{
+    width: 417px;
+    height: 503px;
+    cursor: pointer;
+    padding-bottom: 95px;
+}
+
+.opening-hours-outer-container{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 95px;
+    height: auto;
+    width: auto;
+    max-width: 1730px;
+    flex-wrap: wrap;
+
+}
+.museum-img{
+    width: auto;
+    max-width: 864px;
+    height: auto;
+    max-height: 750px;
+    
+}
+
+.opening-hours-container{
+    width: 864px;
+    height: auto;
+    max-height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White) !important;
+    justify-content: center;
+}
+
+.opening-hours{
+    display: flex;
+}
+
+.time{
+font-size: 30px;
+}
+
+.donate-container{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 95px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: var(--White);
+    width: 761px;
+    height: 323px;
+}
+
+.admission-container{
+    flex-direction: column;
+    text-align: center;
+    width: 854px;
+    height: 484px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 104px;
+    background-color: var(--White);
+    border-radius: 10px;
+}

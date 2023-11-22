@@ -1,0 +1,24 @@
+.big-button{
+    width: 417px;
+    height: 93px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid var(--Blue, #2E9387);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: var(--Blue);
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.normal-button{
+    border-radius: 10px;
+    border: 1px solid var(--Blue);
+    background: var(--White);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 174px;
+    height: 58px;
+    color: var(--Blue);
+    font-size: 25px;
+    font-family: 'Jua', sans-serif;
+}
