@@ -13,7 +13,6 @@
 
 .big-button-container{
     padding-top: 43px;
-    padding-bottom: 89px;
     gap: 93px;
 }
 
@@ -34,6 +33,7 @@
     width: auto;
     max-width: 1730px;
     flex-wrap: wrap;
+    display: flex;
 
 }
 .museum-img{
@@ -61,6 +61,7 @@
 
 .time{
 font-size: 30px;
+padding: 0 50px;
 }
 
 .donate-container{
@@ -73,6 +74,7 @@ font-size: 30px;
     text-align: center;
     width: 854px;
     height: 484px;
+    padding: 0 15px;
 }
 
 .aboutus-container{
