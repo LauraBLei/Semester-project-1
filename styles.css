@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     max-width: 1730px;
-    
+    margin-bottom: 95px;
 }
 
 .big-button-container{
@@ -25,12 +25,11 @@
     width: 417px;
     height: 503px;
     cursor: pointer;
-    padding-bottom: 95px;
+    padding: 0 25px;
 }
 
 .opening-hours-outer-container, .exhibition-container{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-bottom: 95px;
     height: auto;
     width: auto;
     max-width: 1730px;
@@ -65,23 +64,29 @@ font-size: 30px;
 }
 
 .donate-container{
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 95px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    background-color: var(--White);
     width: 761px;
     height: 323px;
 }
 
 .admission-container{
-    flex-direction: column;
     text-align: center;
     width: 854px;
     height: 484px;
+}
+
+.aboutus-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 30px 0 ;
+}
+
+.aboutus-container, .admission-container, .donate-container {
+    display: flex;
+    flex-direction: column;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-bottom: 104px;
-    background-color: var(--White);
     border-radius: 10px;
+    background-color: var(--White);
+    justify-content: center;
 }
