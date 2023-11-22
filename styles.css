@@ -33,7 +33,6 @@
     height: auto;
     width: auto;
     max-width: 1730px;
-    flex-wrap: wrap;
     display: flex;
     background-color: var(--White);
 

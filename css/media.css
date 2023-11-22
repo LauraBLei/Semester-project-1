@@ -1,0 +1,40 @@
+@media screen and (max-width:1732px){ 
+    
+    
+    .event{
+        width: 300px !important;
+        height: auto !important;
+    }
+
+    .museum-img{
+        width: 50% !important;
+        height: auto !important;
+    }
+    
+    .target-container{
+        height: auto !important;
+        width: 100% !important;
+    }
+    
+    .target-text{
+        width: 75% !important;
+    }
+
+    .target-img{
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width:1092px){
+    .container{
+        margin-bottom: 40px !important;
+    }
+
+    .event{
+        width: 220px !important;
+    }
+
+    .admission-container{
+        height: 400px !important;
+    }
+}

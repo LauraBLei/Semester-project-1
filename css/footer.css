@@ -6,3 +6,9 @@ gap: 206px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
+
+@media screen and (max-width:1732px){
+    .footer-container{
+        gap: 100px;
+    }
+}
