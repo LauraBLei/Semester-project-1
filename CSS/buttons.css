@@ -21,4 +21,5 @@
     color: var(--Blue);
     font-size: 25px;
     font-family: 'Jua', sans-serif;
+    cursor: pointer;
 }
