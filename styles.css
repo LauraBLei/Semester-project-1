@@ -3,7 +3,9 @@
 @import url(css/header.css);
 @import url(css/footer.css);
 @import url(css/buttons.css);
+@import url(css/visit.css);
 @import url(css/media.css);
+
 
 .container{
     display: flex;
