@@ -11,6 +11,11 @@
     cursor: pointer;
 }
 
+.big-button-container{
+    padding-top: 43px;
+    gap: 93px;
+}
+
 .normal-button{
     border-radius: 10px;
     border: 1px solid var(--Blue);
@@ -43,4 +48,23 @@
         height: 60px;
         font-size: 30px;
      }   
+}
+
+
+@media screen and (max-width:895px){
+    .big-button {
+        width: 90px;
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .normal-button {
+        width: 90px;
+        height: 33px;
+        font-size: 15px;
+    }
+
+    .big-button-container{
+        gap: 50px;
+    }
 }

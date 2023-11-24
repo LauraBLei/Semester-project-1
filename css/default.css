@@ -1,5 +1,5 @@
 :root {
-    --Blue: #2E9387; 
+    --Blue: #216C63; 
     --White: #FFFFFF;
     --Purple: #A63CA8  ;
     --Black: #000000;
@@ -130,4 +130,30 @@ p{
     font-size: 25px;
     padding-bottom: 20px;
    }
+}
+
+
+@media screen and (max-width:895px){
+    h2{
+        font-size: 25px;
+    }
+   
+    h5{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    h6{
+        font-size: 15px;
+    }
+
+    .opening-hours-container h2{
+        color: var(--White);
+    }
+
+    p {
+        font-size: 15px;
+        margin: 5px !important;
+
+    }
 }

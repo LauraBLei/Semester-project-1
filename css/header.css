@@ -8,7 +8,7 @@ width: 100%;
 background-color: var(--White);
 
 }
-img{
+.logo{
     width: 251px;
     height: 71px;
     cursor: pointer;
@@ -22,5 +22,39 @@ img{
 }
 
 @media screen and (max-width:1732px){
-    
+    .header-ul li {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1092px){
+    .header-ul li {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:895px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .header-ul li {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .header-ul{
+        gap: 20px;
+        padding-left: 0px;
+    }
+
 }
