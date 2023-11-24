@@ -98,7 +98,7 @@
         height: auto !important;
         padding: 25px;
     }
-    .exhibition-text p {
+    .exhibition-text p, .exhibition-text h2{
         color: var(--White);
     }
 
