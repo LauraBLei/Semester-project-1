@@ -151,6 +151,7 @@ table{
 @media screen and (max-width:895px){
     h2{
         font-size: 25px;
+        padding-bottom: 15px;
     }
    
     h5{
@@ -170,5 +171,13 @@ table{
         font-size: 15px;
         margin: 5px !important;
 
+    }
+
+    .homepage-tr th{
+        color: var(--White);
+    }
+
+    th{
+        font-size: 25px;
     }
 }

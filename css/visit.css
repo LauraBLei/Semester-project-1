@@ -22,16 +22,15 @@
 .contact-form{
     width: 854px;    
     justify-content: space-evenly;
-    padding: 25px 0;
 }
 
 .call-hours{
     width: auto;
-    padding: 25px;
     justify-content: space-around;
 }
 
 .contact-form, .call-hours{
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -59,5 +58,30 @@
     
     .contact-form{
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:895px){
+    .contact-hours-container{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        justify-content: center;
+    }
+    
+    .form, .textfield{
+        width: 361px;
+        background-color: var(--White);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .call-hours{
+        justify-content: center;
+        height: auto;
     }
 }
