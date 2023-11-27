@@ -61,6 +61,7 @@ h6{
     text-align: center;
 }
 
+
 a{
     cursor: pointer;
     color: var(--Blue);
@@ -80,6 +81,10 @@ p{
     color: var(--Black);
     text-align: center;
     margin: 17px;
+}
+
+.time li {
+    color: var(--Black);
 }
 
 
