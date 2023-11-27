@@ -85,7 +85,22 @@ p{
 
 .time li {
     color: var(--Black);
+    white-space: nowrap;
 }
+
+th{
+    color: var(--Black);
+    white-space: nowrap;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 @media screen and (max-width:1732px){
