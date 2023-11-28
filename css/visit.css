@@ -2,8 +2,6 @@
     font-family: 'Jua', sans-serif !important;
     font-size: 25px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 556px;
     background-color: var(--Grey);
     border: 1px solid var(--Blue);
@@ -14,7 +12,11 @@
 .form{
     height: 62px;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .textfield{
     height: 274px ;
 }
