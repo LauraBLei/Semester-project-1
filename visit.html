@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <meta name="description" content="Got a question, want to book a tour, or maybe wanna donate something? Contact us here! or find some other usefull information about your visit to us!"/>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +33,7 @@
 
     <main>
       <section class="container contact-hours-container">
-        <div class="contact-form">
+        <section class="contact-form">
           <h2>Contact</h2>
           <form>
             <input class="form" type="text" placeholder="Email" name="email" id="email" required/>
@@ -40,9 +41,7 @@
             <textarea placeholder="Type here..." class="textfield" name="problem" id="problem" required></textarea>
             <input class="normal-button" type="submit" value="Send" />
           </form>
-          <form>
-          </form>
-        </div>
+        </section>
 
         <section class="call-hours">
           <h2>Opening hours</h2>
@@ -82,35 +81,73 @@
           </article>
         </section>
       </section>
+
+      <section class="container directions-container">
+        <img class="map" src="pictures/Mask group-map.png" alt="Picture of the location of the museum">
+        <article>
+          <h2>Directions</h2>
+          <p>
+            Imaginary street 2 <br>
+            1234 City, Country 
+          </p>
+        </article>
+        <article>
+          <h2>Parking</h2>
+          <p>
+            There is parking for <br>
+            cars, bisycles and buses.
+          </p>
+        </article>
+      </section>
+
+      <section class="container facilities-container">
+        <article>
+          <h2>Food and Drink</h2>
+          <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+        </article>
+        <article>
+          <h2>Shop</h2>
+          <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum. </p>
+        </article>
+        <article>
+          <h2>Accessibility</h2>
+          <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired. </p>
+        </article>
+      </section>
+
+
+
+
+
     </main>
 
 
 
     <footer>
       <section class="footer-container">
-        <div class="contact">
+        <nav class="contact">
           <h3>Contact</h3>
           <a href="visit.html"><h4>Contact us</h4></a>
           <a href="visit.html"><h4>Visit</h4></a>
-        </div>
-        <div class="information">
+        </nav>
+        <nav class="information">
           <h3>Information</h3>
           <a href="terms.html"><h4>Privacy Policy</h4></a>
           <a href="terms.html"><h4>Terms and Conditions</h4></a>
           <a><h4>Museum Rules</h4></a>
           <a><h4>Cookies</h4></a>
-        </div>
-        <div class="csm">
+        </nav>
+        <nav class="csm">
           <h3>CSM</h3>
           <a><h4>About CSM</h4></a>
           <a><h4>Our Aims</h4></a>
           <a><h4>Sponsors</h4></a>
-        </div>
-        <div class="directions">
+        </nav>
+        <nav class="directions">
           <a href="visit.html"><h3>Directions</h3></a>
           <h4>Imaginiary Street 2</h4>
           <h4>1234 City, Norway</h4>
-        </div>
+        </nav>
       </section>
     </footer>
   </body>
