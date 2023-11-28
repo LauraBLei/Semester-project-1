@@ -1,0 +1,121 @@
+.contribution-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("/pictures/learn-2405206_1920.jpg");
+  width: 100%;
+  max-height: 630px;
+  height: 40vw;
+  align-items: center;
+  justify-content: right !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.contribution-header article h1,
+.contribution-header article p {
+  color: var(--White);
+}
+
+.contribution-header article {
+  max-width: 718px;
+  text-align: center;
+  margin-right: 5%;
+  margin-top: -10%;
+}
+
+.internship-container,
+.volunteer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 708px;
+}
+
+.get-involved-container {
+  justify-content: space-around !important;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.internship-container h2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("/pictures/people-219985_1280.jpg");
+}
+
+.volunteer-container h2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("/pictures/luke-ellis-craven-400722.jpg");
+}
+
+.volunteer-container h2,
+.internship-container h2 {
+  width: 100%;
+  height: 728px;
+  text-align: center;
+  color: var(--White);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.volunteer-container p,
+.internship-container p {
+  font-size: 30px;
+  background-color: var(--White);
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1092px) {
+  .contribution-header article {
+    max-width: 400px !important;
+  }
+  .volunteer-container h2,
+  .internship-container h2 {
+    height: 500px;
+  }
+
+  .volunteer-container p,
+  .internship-container p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .contribution-header article {
+    max-width: 300px;
+    height: auto;
+    margin: 5%;
+  }
+
+  .contribution-header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .donations-text {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+      url("/pictures/mavis-cw-164128.jpg");
+    padding: 25px 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .donations-text h2,
+  .donations-text p {
+    color: var(--White);
+  }
+
+  .volunteer-container h2,
+  .internship-container h2 {
+    height: 300px;
+  }
+}

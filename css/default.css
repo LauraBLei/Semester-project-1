@@ -20,7 +20,9 @@ main{
     align-items: center;
 }
 
-
+h1{
+    font-size: 70px;
+}
 
 /* Headlines */
 h2{               
@@ -105,7 +107,7 @@ table{
 
 @media screen and (max-width:1732px){
  
- h2{
+ h2, h1{
     font-size: 40px;
  }
 
@@ -149,7 +151,7 @@ table{
 
 
 @media screen and (max-width:895px){
-    h2{
+    h2, h1{
         font-size: 25px;
         padding-bottom: 15px;
     }

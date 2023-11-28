@@ -1,126 +1,130 @@
-.form, .textfield{
-    font-family: 'Jua', sans-serif !important;
-    font-size: 25px;
-    display: flex;
-    width: 556px;
-    background-color: var(--Grey);
-    border: 1px solid var(--Blue);
-    border-radius: 10px;
-    margin-bottom: 16px;
+.form,
+.textfield {
+  font-family: "Jua", sans-serif !important;
+  font-size: 25px;
+  display: flex;
+  width: 556px;
+  background-color: var(--Grey);
+  border: 1px solid var(--Blue);
+  border-radius: 10px;
+  margin-bottom: 16px;
 }
 
-.form{
-    height: 62px;
+.form {
+  height: 62px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.textfield{
-    height: 274px ;
-}
-
-.contact-form{
-    width: 854px;    
-    justify-content: space-evenly;
+.textfield {
+  height: 274px;
 }
 
-.call-hours{
-    width: auto;
-    justify-content: space-around;
+.contact-form {
+  width: 854px;
+  justify-content: space-evenly;
 }
 
-.contact-form, .call-hours{
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    background-color: var(--White);
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    height: 730px;
-    border: 1px solid var(--Blue);
+.call-hours {
+  width: auto;
+  justify-content: space-around;
 }
 
-.contact-hours-container{
-    justify-content: space-around !important;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
+.contact-form,
+.call-hours {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--White);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 730px;
+  border: 1px solid var(--Blue);
 }
 
-.directions-container, .facilities-container{
-    width: 100%;
-    height: auto;
-    padding: 30px 25px;
-    max-width: 1730px;
-    background-color: var(--White);
-    justify-content: space-evenly !important;
-    text-align: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+.contact-hours-container {
+  justify-content: space-around !important;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
 }
 
-.directions-container{
-    align-items: center;
+.directions-container,
+.facilities-container {
+  width: 100%;
+  height: auto;
+  padding: 30px 25px;
+  max-width: 1730px;
+  background-color: var(--White);
+  justify-content: space-evenly !important;
+  text-align: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.directions-container {
+  align-items: center;
 }
 
 .directions-container article {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-.facilities-container article{
-    max-width: 330px;
-    width: 100%;
-    padding-bottom: 20px;
+.facilities-container article {
+  max-width: 330px;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1220px) {
-    .contact-hours-container{
-        justify-content: center !important;
-        gap:0px;
-    }
-    
-    .contact-form{
-        margin-bottom: 20px;
-    }
+  .contact-hours-container {
+    justify-content: center !important;
+    gap: 0px;
+  }
 
-    .map {
-        width: 200px;
-        height: auto;
-    }
+  .contact-form {
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 200px;
+    height: auto;
+  }
 }
 
-@media screen and (max-width:895px){
-    .contact-hours-container{
-        flex-direction: column;
-    }
-    .contact-form{
-        width: auto;
-        height: auto;
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        justify-content: center;
-        padding: 0;
-    }
-    
-    .form, .textfield{
-        width: 361px;
-        background-color: var(--White);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    }
+@media screen and (max-width: 895px) {
+  .contact-hours-container {
+    flex-direction: column;
+  }
+  .contact-form {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    justify-content: center;
+    padding: 0;
+  }
 
-    .call-hours{
-        justify-content: center;
-        height: auto;
-    }
+  .form,
+  .textfield {
+    width: 361px;
+    background-color: var(--White);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
 
-    .map {
-        width: 180px ;
-        height: auto;
-    }
+  .call-hours {
+    justify-content: center;
+    height: auto;
+  }
+
+  .map {
+    width: 180px;
+    height: auto;
+  }
 }
