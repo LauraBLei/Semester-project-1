@@ -62,8 +62,19 @@
     text-align: left;
     padding:  10px 15px;
     margin: 0;
-
 }
+
+.events-headline{
+  background-color: var(--Blue);
+  color: var(--White);
+  width: 1150px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
 
 @media screen and (max-width: 1092px) {
   .exhibition-header-container {
