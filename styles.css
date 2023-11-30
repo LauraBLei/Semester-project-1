@@ -6,6 +6,7 @@
 @import url(css/visit.css);
 @import url(css/contribution.css);
 @import url(css/exhibitions.css);
+@import url(css/terms-privacy.css);
 @import url(css/media.css);
 
 
@@ -106,7 +107,7 @@ padding: 0 50px;
 
 }
 
-.target-container, .events-container{
+.target-container{
     height: 726px;
 }
 .target-text{

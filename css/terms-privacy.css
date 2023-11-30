@@ -1,0 +1,41 @@
+.privacy-policy{
+    max-width: 1730px;
+}
+
+.policy-article{
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: var(--White);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.policy-article h2, .policy-article p, .policy-article ul, .policy-article ul li{
+ text-align: left;
+ color: var(black);
+ font-size: 20px;
+}
+
+.policy-article ul, .policy-article ul li{
+    list-style: circle;
+    color: var(--Black)
+
+}
+
+.policy-article h2{
+    font-size: 30px;
+}
+
+.privacy-policy h1{
+    text-align: center;
+    color: var(--Purple);
+}
+
+@media screen and (max-width:895px){
+    .policy-article h2{
+        font-size: 20px;
+    }
+
+    .policy-article h2, .policy-article p, .policy-article ul, .policy-article ul li{
+        font-size: 15px;
+       }
+}
