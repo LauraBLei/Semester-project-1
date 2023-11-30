@@ -37,12 +37,15 @@ h3{
     color: var(--White);
     padding: 4px;
     margin: 0;
+    font-weight: 800;
 }
 
 h4{
     color: var(--White);
     padding: 4px;
     margin: 0;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 
@@ -85,10 +88,6 @@ p{
     margin: 17px;
 }
 
-.time li {
-    color: var(--Black);
-    white-space: nowrap;
-}
 
 th{
     color: var(--Black);
@@ -96,6 +95,7 @@ th{
     font-size: 30px;
     padding: 10px;
     text-align: left;
+    font-weight: 700;
 }
 
 table{
