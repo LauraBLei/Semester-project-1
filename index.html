@@ -21,7 +21,7 @@
 
   <body>
     <header>
-      <section class="nav-container">
+      <div class="nav-container">
         <img class="logo" src="pictures/Logo.svg" />
         <nav class="menu">
           <ul class="header-ul">
@@ -31,21 +31,21 @@
             <li><a href="visit.html">Visit</a></li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
 
     <main>
-      <section class="container big-button-container">
-        <a href="#teacher-section"
-          ><button class="big-button">Teachers</button></a
-        >
+      <div class="container big-button-container">
+        <button class="big-button">
+          <a href="#teacher-section">Teachers</a>
+        </button>
 
         <a href="#kids-section"><button class="big-button">Kids</button></a>
 
-        <a href="#researcher-section"
-          ><button class="big-button">Researchers</button></a
-        >
-      </section>
+        <button class="big-button">
+          <a href="#researcher-section">Researchers</a>
+        </button>
+      </div>
 
       <article class="container explore-together-container">
         <h5>Explore together</h5>
@@ -56,18 +56,21 @@
       </article>
 
       <section class="container event-container">
-        <a href="exhibitions.html#event1"
-          ><h2 class="event1 event">Visiting Professor of Aeronautics</h2></a
-        >
-        <a href="exhibitions.html#event2">
-          <h2 class="event2 event">Night in the Museum</h2></a
-        >
-        <a href="exhibitions.html#event3"
-          ><h2 class="event3 event">Energetica Exhibition on loan</h2></a
-        >
+        <h2 class="event1 event">
+          <a href="exhibitions.html#event1"
+            >Visiting Professor of Aeronautics</a
+          >
+        </h2>
+
+        <h2 class="event2 event">
+          <a href="exhibitions.html#event2">Night in the Museum</a>
+        </h2>
+        <h2 class="event3 event">
+          <a href="exhibitions.html#event3">Energetica Exhibition on loan</a>
+        </h2>
       </section>
 
-      <section class="container">
+      <div class="container">
         <img
           class="museum-img"
           src="pictures/scott-webb-102825.jpg"
@@ -108,9 +111,9 @@
             </table>
           </div>
         </article>
-      </section>
+      </div>
 
-      <section class="container">
+      <div class="container">
         <article class="admission-container">
           <h2>Admission</h2>
           <p>The entrance is free for all.</p>
@@ -124,9 +127,9 @@
             more people, please contact us to arrange the tour.
           </p>
         </article>
-      </section>
+      </div>
 
-      <section class="container exhibition-container">
+      <div class="container exhibition-container">
         <article class="exhibition-text">
           <h2>Exhibitions</h2>
           <p>
@@ -139,16 +142,16 @@
             (apart from the dinosaur exhibits – <br />
             they only come to life at night when everyone’s gone home).<br />
           </p>
-          <a href="exhibitions.html"
-            ><button class="normal-button">See more</button></a
-          >
+          <button class="normal-button">
+            <a href="exhibitions.html">See more</a>
+          </button>
         </article>
         <img
           class="museum-img"
           src="pictures/mammoth-1257288_1920.jpg"
           alt="Image of the skeleton of a mammoth"
         />
-      </section>
+      </div>
 
       <section class="container">
         <article class="donate-container">
@@ -158,9 +161,9 @@
             and are an important way we keep this museum open <br />
             and accessible to the whole community.
           </p>
-          <a href="contribution.html#donation"
-            ><button class="normal-button">Donate</button></a
-          >
+          <button class="normal-button">
+            <a href="contribution.html#donation">Donate</a>
+          </button>
         </article>
       </section>
 
@@ -176,10 +179,10 @@
           experience the wonders of our discoveries and perhaps even ignite a
           lifelong passion to continue the exploration of the world around us.
         </p>
-        <a href="#"><button class="normal-button">Read more</button></a>
+        <button class="normal-button"><a href="#">Read more</a></button>
       </article>
 
-      <section id="teacher-section" class="container target-container">
+      <div id="teacher-section" class="container target-container">
         <div class="target-img-container">
           <img
             class="target-img"
@@ -199,9 +202,9 @@
             through for a visit.
           </p>
         </article>
-      </section>
+      </div>
 
-      <section id="kids-section" class="container target-container">
+      <div id="kids-section" class="container target-container">
         <article class="target-text">
           <h2>Kids</h2>
           <p>
@@ -229,9 +232,9 @@
             alt="Image of a boy reading a book"
           />
         </div>
-      </section>
+      </div>
 
-      <section id="researcher-section" class="container target-container">
+      <div id="researcher-div" class="container target-container">
         <div class="target-img-container">
           <img
             class="target-img"
@@ -249,11 +252,11 @@
             universities around the country.
           </p>
         </article>
-      </section>
+      </div>
     </main>
 
     <footer>
-      <section class="footer-container">
+      <div class="footer-container">
         <nav class="contact">
           <h3>Contact</h3>
           <a href="visit.html"><h4>Contact us</h4></a>
@@ -277,7 +280,7 @@
           <h4>Imaginiary Street 2</h4>
           <h4>1234 City, Norway</h4>
         </nav>
-      </section>
+      </div>
     </footer>
   </body>
 </html>

@@ -42,6 +42,10 @@
     text-align: center;
 }
 
+.event a{
+    color: var(--White);
+}
+
 .event1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url("pictures/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
@@ -113,6 +117,7 @@ padding: 0 50px;
     height: auto;
     text-align: center;
     padding: 30px 0 ;
+    align-items: center;
 }
 
 .aboutus-container, .admission-container, .donate-container, .target-text{
