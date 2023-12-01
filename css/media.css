@@ -1,8 +1,8 @@
-@media screen and (max-width:4000px){
+/* @media screen and (max-width:4000px){
     .mobile-event, .event2{
         display: none;
     }
-}
+} */
 
 
 @media screen and (max-width:1732px){ 
@@ -10,7 +10,9 @@
     
     .event{
         width: 300px !important;
-        height: auto !important;
+        height: 400px !important;
+        font-size: 20px !important;
+        margin: 5px !important;
     }
 
     .museum-img{
@@ -38,7 +40,10 @@
     }
 
     .event{
-        width: 220px !important;
+        width: 200px !important;
+        height: 300px !important;
+        font-size: 20px !important;
+        text-align: center;
     }
 
     .admission-container{
@@ -55,20 +60,17 @@
         display: none;
     }
     
-    .event2{
-        width: 100%;
-        height: auto;
-    }
-
-    .mobile-event, .event2{
-        display: block;
-        display: flex;
+    .event-container{
         flex-direction: column;
-        
+        gap: 10px;
     }
 
-    .event-container, .event{
-        display: none;
+    .event{
+        width: 100% !important;
+        height: 81px !important;
+        font-size: 20px !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
     }
 
     .opening-hours-container{
