@@ -44,17 +44,17 @@
 
 .event1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("/pictures/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
+    url("pictures/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
 }
 
 .event2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("/pictures/roberto-nickson-396152.jpg");
+    url("pictures/roberto-nickson-396152.jpg");
 }
 
 .event3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("/pictures/jan-kopriva-emOTmBXaxis-unsplash.jpg");
+    url("pictures/jan-kopriva-emOTmBXaxis-unsplash.jpg");
 }
 
 .opening-hours-outer-container, .exhibition-container, .donations-container{
