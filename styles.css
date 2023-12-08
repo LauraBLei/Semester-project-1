@@ -48,17 +48,17 @@
 
 .event1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("pictures/spaceimg.jpg");
+    url("pictures/spaceimg.webp");
 }
 
 .event2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("pictures/museum-hall-2.jpg");
+    url("pictures/museum-hall-2.webp");
 }
 
 .event3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("pictures/windmill.jpg");
+    url("pictures/windmill.webp");
 }
 
 .event:hover{

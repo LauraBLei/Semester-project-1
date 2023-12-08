@@ -5,7 +5,7 @@
 
 .exhibition-header-container h2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url("../pictures/celso-405219.jpg");
+    url("../pictures/celso-405219.webp");
   display: flex;
   justify-content: center;
   align-items: center;
