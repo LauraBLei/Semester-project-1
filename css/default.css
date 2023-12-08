@@ -73,6 +73,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: var(--Purple);
+}
+
 ul{
     list-style: none;
 }

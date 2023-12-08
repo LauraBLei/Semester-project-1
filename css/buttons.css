@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.big-button:hover, .normal-button:hover, .visit-button:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    border: 1px solid var(--Purple);
+    color: var(--Purple);
+}
+
 .big-button-container{
     padding-top: 0px;
     gap: 93px;

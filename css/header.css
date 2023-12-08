@@ -12,13 +12,19 @@ margin-bottom: 35px;
     width: 251px;
     height: 71px;
     cursor: pointer;
+    margin-left: 50px;
 }
+
 .header-ul{
     list-style: none;
     display: flex;
     gap: 56px;
     font-size: 25px;
     cursor: pointer;
+}
+.header-ul li:hover, .logo:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:1732px){
@@ -35,6 +41,7 @@ margin-bottom: 35px;
     .logo {
         width: 200px;
         height: auto;
+        margin-left: 0;
     }
 }
 

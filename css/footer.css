@@ -7,6 +7,11 @@ padding-top: 20px;
 padding-bottom: 20px;
 }
 
+.footer-container h4:hover, .footer-container h3:hover{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+
+}
 @media screen and (max-width:1732px){
     .footer-container{
         gap: 100px;
