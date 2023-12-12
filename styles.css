@@ -160,51 +160,51 @@ padding: 0 50px;
     
     
     .event{
-        width: 300px !important;
-        height: 400px !important;
-        font-size: 20px !important;
-        margin: 5px !important;
+        width: 300px ;
+        height: 400px ;
+        font-size: 20px ;
+        margin: 5px ;
     }
 
     .museum-img{
-        width: 50% !important;
-        height: auto !important;
+        width: 50% ;
+        height: auto ;
     }
     
     .target-container{
-        height: auto !important;
-        width: 100% !important;
+        height: auto ;
+        width: 100% ;
     }
     
     .target-text{
-        width: 75% !important;
+        width: 75% ;
     }
 
     .target-img{
-        width: 100% !important;
+        width: 100% ;
     }
 }
 
 @media screen and (max-width:1092px){
     .container{
-        margin-bottom: 40px !important;
+        margin-bottom: 40px ;
     }
 
     .event{
-        width: 200px !important;
-        height: 300px !important;
-        font-size: 20px !important;
+        width: 200px ;
+        height: 300px ;
+        font-size: 20px ;
         text-align: center;
     }
 
     .admission-container{
-        height: 400px !important;
+        height: 400px ;
     }
 }
 
 @media screen and (max-width:895px){
     .container{
-        margin-bottom: 20px !important;
+        margin-bottom: 20px ;
     }
 
     .museum-img {
@@ -217,34 +217,34 @@ padding: 0 50px;
     }
 
     .event{
-        width: 100% !important;
-        height: 81px !important;
-        font-size: 20px !important;
-        border-radius: 0 !important;
-        margin: 0 !important;
+        width: 100% ;
+        height: 81px ;
+        font-size: 20px ;
+        border-radius: 0 ;
+        margin: 0 ;
     }
 
     .opening-hours-container{
-        background-color: var(--Blue) !important;
-        color: var(--White) !important;
-        padding: 10px 0 !important;
-        width: 100% !important;
-        height: auto !important;
+        background-color: var(--Blue) ;
+        color: var(--White) ;
+        padding: 10px 0 ;
+        width: 100% ;
+        height: auto ;
     }
 
     .admission-container, .donate-container {
-        width: 100% !important;
-        height: auto !important;
-        padding: 20px 0 !important;
-        border-radius: 0 !important;
+        width: 100% ;
+        height: auto ;
+        padding: 20px 0 ;
+        border-radius: 0 ;
     }
 
     .exhibition-text{
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../pictures/mammoth-1257288_1920.webp");
         background-size: cover;
-        width: 100% !important;
-        height: auto !important;
+        width: 100% ;
+        height: auto ;
         padding: 25px;
     }
     .exhibition-text p, .exhibition-text h2{
@@ -252,13 +252,13 @@ padding: 0 50px;
     }
 
     .target-container{
-        flex-direction: column !important;
-        max-width: 480px !important;
+        flex-direction: column ;
+        max-width: 480px ;
     }
 
     .target-img{
-        width: 100% !important;
-        height: auto !important;
+        width: 100% ;
+        height: auto ;
         overflow: hidden;
         margin-top: -100px;
     }
@@ -270,7 +270,7 @@ padding: 0 50px;
     }
 
     .target-text{
-        width: 100% !important;
+        width: 100% ;
         height: auto;
     }
 }
