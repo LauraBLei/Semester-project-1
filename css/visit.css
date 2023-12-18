@@ -88,11 +88,6 @@ form {
 }
 
 @media screen and (max-width: 1220px) {
-  .contact-hours-container {
-    justify-content: center !important;
-    gap: 0px;
-  }
-
   .contact-form {
     margin-bottom: 20px;
   }
